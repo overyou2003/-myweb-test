@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning session 2</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+        }
+        #test_click {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- block elements -->
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptatum?
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptatum?
+        </p>
+    </div>
+
+    <hr>
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Setting</a>
+
+    <span>Text 1</span>
+    <span>Text 2</span>
+    <span>Text 3</span>
+
+    <hr>
+
+    <div class="container">
+        <h1>Hello there!</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto excepturi est quod sit facere maiores recusandae officia dolore dignissimos saepe, in, laudantium quam velit ipsum minus blanditiis ex dicta sed!</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ea.</p>
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div id="test_click">
+            click me 
+        </div>
+    </div>
+
+    <script>
+        let test_click = document.getElementById("test_click");
+
+        test_click.addEventListener("click" , function() {
+            alert("Why you click bitch!")
+        })
+    </script>
+</body>
+</html>
