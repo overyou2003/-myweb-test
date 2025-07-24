@@ -1,13 +1,58 @@
-body {
+/* body {
     background-image: url(img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 .mybox {
     background-image: url(img.jpg);
     width: 1000px;
     height: 500px;
     background-size: cover;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.outset {
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.groove {
+    border-style: groove;
+}
+
+div {
+    
+    
+    background-color: rgb(255, 255, 255);
+
+    border-style: outset;
+    border-width: 5px;
+    color: rgb(7, 0, 0);
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+p {
+    text-decoration-thickness: 1px;
+    text-shadow: 1px 0.5px 2px gray;
+    
 }
