@@ -11,18 +11,27 @@
 
 .container {
     max-width: 960px;
-    margin: 0 auto;
-    background-color: rgb(195, 236, 13);
+    max-height: 900px;
+    margin: 20px auto;
+    background-color: aqua;
     position: relative;
+    padding: 20px;
+    
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: sticky;
-    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    overflow: auto;
 }
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+
 
 
 table {
