@@ -5,7 +5,12 @@
     background-attachment: fixed;
 } */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+:root {
+    --black: #000;
+}
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -15,15 +20,22 @@
     margin: 20px auto;
     background-color: aqua;
     position: relative;
-    padding: 20px;
-    
 }
 
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    overflow: auto;
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.box1 {
+    width: 300px;
+    height: 100px;
+    margin: 10px 0px;
+    padding: 15px;
+    color: white;
+    background-color: var(--black);
 }
 
 a:hover {
