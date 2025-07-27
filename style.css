@@ -4,55 +4,60 @@
     background-size: cover;
     background-attachment: fixed;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.mybox {
-    background-image: url(img.jpg);
-    width: 1000px;
-    height: 500px;
-    background-size: cover;
-}
 
-.dotted {
-    border-style: dotted;
-}
 
-.dashed {
-    border-style: dashed;
-}
 
-.solid {
-    border-style: solid;
-}
 
-.outset {
-    border-style: outset;
-    border-width: 3px;
-    border-radius: 10px;
-}
-
-.inset {
-    border-style: inset;
-}
-
-.groove {
-    border-style: groove;
-}
 
 div {
-    
-    
-    background-color: rgb(255, 255, 255);
 
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
     border-style: outset;
     border-width: 5px;
     color: rgb(7, 0, 0);
-    text-align: justify;
+    text-align: center;
     padding: 10px;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+table, th, td {
+    border-width: 1px;
+    border-style: solid;
     
 }
 
+th {
+    height: 50px;
+    background-color: rgb(235, 4, 4);
+    color: white;
+}
+
+td {
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* tr:hover {
+    background-color: red;
+} */
+
+.texts:hover {
+    background-color: rgb(245, 96, 96);
+    color: white;
+}
+
 p {
-    text-decoration-thickness: 1px;
-    text-shadow: 1px 0.5px 2px gray;
-    
+    display: inline;
 }
