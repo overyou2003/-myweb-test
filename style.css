@@ -9,21 +9,22 @@
 
 
 
-
-
-div {
-
-    background-color: rgb(255, 255, 255);
-    font-family: "Montserrat", sans-serif;
-    border-style: outset;
-    border-width: 5px;
-    color: rgb(7, 0, 0);
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
-    font-weight: 400;
-    
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(195, 236, 13);
+    position: relative;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+
+
 table {
     width: 50%;
     border-collapse: collapse;
@@ -58,6 +59,3 @@ td {
     color: white;
 }
 
-p {
-    display: inline;
-}
